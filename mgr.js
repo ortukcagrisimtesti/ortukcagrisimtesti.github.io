@@ -19,11 +19,11 @@ define(['managerAPI',
     let whiteLabels = [];
 
     if (raceSet === 'a') {
-	blackLabels.push('Kadın');
-	whiteLabels.push('Erkek');
+	blackLabels.push('Kadın İsmi');
+	whiteLabels.push('Erkek İsmi');
     } else {
-	blackLabels.push('Kadın');
-	whiteLabels.push('Erkek');
+	blackLabels.push('Kadın İsmi');
+	whiteLabels.push('Erkek İsmi');
     }
 
     API.addGlobal({
@@ -33,10 +33,10 @@ define(['managerAPI',
 	blackLabels: blackLabels,
 	whiteLabels: whiteLabels,
 	posWords: API.shuffle([
-            'Profesyonel', 'Zeki', 'Maaş', 'Cesur', 'Korkusuz', 'Güçlü'
+            'Şakacı', 'Yiğit', 'Mantıklı', 'Sorumsuz', 'Otoriter', 'Sert'
 	]),
 	negWords: API.shuffle([
-	    'Saflık', 'Duygusallık', 'Şefkat', 'Çocuk', 'Aile', 'Bağlılık'
+	    'Hamarat', 'Hassas', 'Şefkatli', 'Evhamlı', 'Fesat', 'Dedikoducu'
 	])
     });
 
