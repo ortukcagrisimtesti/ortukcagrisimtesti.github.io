@@ -37,7 +37,10 @@ define(['managerAPI',
 	]),
 	negWords: API.shuffle([
 	    'Hamarat', 'Hassas', 'Şefkatli', 'Evhamlı', 'Fesat', 'Dedikoducu'
-	])
+	]),
+	kadinWords: API.shuffle([
+	     'Ayşe' , 'Fatma' , 'Selin'
+	]),
     });
 
     API.addTasksSet({
