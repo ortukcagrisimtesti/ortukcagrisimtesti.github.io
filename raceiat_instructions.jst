@@ -1,3 +1,8 @@
+<%
+    var respInst = "you will use the 'E' and 'I' computer keys to";
+    if (global.$isTouch)  respInst = "you will";
+%>
+
 <div class="panel panel-info" style="margin-top:1em">
 		<div class="panel-heading">
 			<h1 class="panel-title" style="font-size:2em">
@@ -7,33 +12,51 @@
 </div>
 
 <div class="panel-body">
-	<p class="lead">Gelecek bölümde, <%= respInst %> öğeleri mümkün olduğunca hızlı bir şekilde gruplara ayırın.
-	Bu dört grup ve her bir gruba ait öğeler şunlardır:</p>
+	<p class="lead">Next, <%=respInst%> categorize items into groups as fast as you can. 
+	These are the four groups and the items that belong to each:</p>
 
 	<table class="table table-bordered">
 		<tr class="active">
-			<th>Kategori</th>
-			<th>Öğeler</th>
+			<th>Category</th>
+			<th>Items</th>
 		</tr>
 		<tr>
-			<th>Kadın İsmi</th>
-			<td><Ayşe>, <Fatma>, 
-			<Zeynep>, <Selin>, <Ceren>, <Elif></td>
+			<th>Good</th>
+			<td><%=global.posWords[0]%>, <%=global.posWords[1]%>, <%=global.posWords[2]%>, 
+			<%=global.posWords[3]%>, <%=global.posWords[4]%>, <%=global.posWords[5]%>, 
+			<%=global.posWords[6]%>, <%=global.posWords[7]%></td>
 		</tr>
 		<tr>
-			<th>Erkek İsmi</th>
-			<td><Ali>, <Hasan>, <Mustafa>, 
-			<Ahmet>, <Yusuf>, <Hüseyin></td>
+			<th>Bad</th>
+			<td><%=global.negWords[0]%>, <%=global.negWords[1]%>, <%=global.negWords[2]%>, 
+			<%=global.negWords[3]%>, <%=global.negWords[4]%>, <%=global.negWords[5]%>, 
+			<%=global.negWords[6]%>, <%=global.negWords[7]%></td>
 		</tr>
 		<tr>
-			<th><Feminen></th>
-			<td><Hamarat>, <Hassas>, <Dedikoducu>, 
-			<Evhamlı>, <Fesat>, <Şefkatli></td>
+			<th><%=global.blackLabels%></th>
+	<td>
+		  <img src="<%=global.baseURL%>bm1_nc.jpg" height=60>
+		  <img src="<%=global.baseURL%>bm2_nc.jpg" height=60>
+		  <img src="<%=global.baseURL%>bm3_nc.jpg" height=60>
+		  <img src="<%=global.baseURL%>bf1_nc.jpg" height=60>
+			  <img src="<%=global.baseURL%>bf2_nc.jpg" height=60>
+			  <img src="<%=global.baseURL%>bf3_nc.jpg" height=60>
+
+	   
+			  </td>
 		</tr>
 		<tr>
-			<th><Maskülen></th>
-			<td><Şakacı>, <Yiğit>, <Mantıklı>, 
-			<Sorumsuz>, <Otoriter>, <Sert></td>
+			<th><%=global.whiteLabels%></th>
+			<td>    
+			  <img src="<%=global.baseURL%>wm1_nc.jpg" height=60>
+			  <img src="<%=global.baseURL%>wm2_nc.jpg" height=60>
+			  <img src="<%=global.baseURL%>wm3_nc.jpg" height=60>
+			  <img src="<%=global.baseURL%>wf1_nc.jpg" height=60>
+					  <img src="<%=global.baseURL%>wf2_nc.jpg" height=60>
+			  <img src="<%=global.baseURL%>wf3_nc.jpg" height=60>
+
+			
+			  </td>
 		</tr>
 	</table>
 
