@@ -39,7 +39,10 @@ define(['managerAPI',
 	    'Hamarat', 'Hassas', 'Şefkatli', 'Evhamlı', 'Fesat', 'Dedikoducu'
 	]),
 	kadinWords: API.shuffle([
-	     'Ayşe' , 'Fatma' , 'Selin'
+	     'Ayşe' , 'Fatma' , 'Selin' , 'Ceren' , 'Elif' , 'Zeynep'
+	]),
+	erkekWords:  API.shuffle([
+	     'Ahmet' , 'Ali' , 'Mustafa' , 'Hasan' , 'Hüseyin' , 'Yusuf'
 	]),
     });
 
