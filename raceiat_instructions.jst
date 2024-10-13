@@ -1,0 +1,52 @@
+<%
+    var respInst = "E ve I tuşlarını kullanarak";
+    if (global.$isTouch)  respInst = "you will";
+%>
+
+<div class="panel panel-info" style="margin-top:1em">
+		<div class="panel-heading">
+			<h1 class="panel-title" style="font-size:2em">
+				IAT Instructions
+			</h1>
+		</div>
+</div>
+
+<div class="panel-body">
+	<p class="lead">Gelecek bölümde, <%= respInst %> öğeleri mümkün olduğunca hızlı bir şekilde gruplara ayırın.
+	Bu dört grup ve her bir gruba ait öğeler şunlardır:</p>
+
+	<table class="table table-bordered">
+		<tr class="active">
+			<th>Kategori</th>
+			<th>Öğeler</th>
+		</tr>
+		<tr>
+			<th>Maskülen</th>
+			<td><%=global.posWords[1]%>, <%=global.posWords[2]%>, 
+			<%=global.posWords[3]%>, <%=global.posWords[4]%>, <%=global.posWords[5]%></td>
+		</tr>
+		<tr>
+			<th>Feminen</th>
+			<td><%=global.negWords[0]%>, <%=global.negWords[1]%>, <%=global.negWords[2]%>, 
+			<%=global.negWords[3]%>, <%=global.negWords[4]%>, <%=global.negWords[5]%></td>
+		</tr>
+		<tr>
+			<th><Kadin></th>
+			<td><Kadin><%=global.blackWords[0]%>, <%=global.blackWords[1]%>, <%=global.blackWords[2]%>, 
+			<%=global.blackWords[3]%>, <%=global.blackWords[4]%>, <%=global.blackWords[5]%></td>	
+		</tr>
+		<tr>
+			<th><Erkek></th>
+			<td><Erkek>, <%=global.whiteWords[0]%>, <%=global.whiteWords[1]%>, <%=global.whiteWords[2]%>, 
+			<%=global.whiteWords[3]%>, <%=global.whiteWords[4]%>, <%=global.whiteWords[5]%></td>
+		</tr>
+	</table>
+
+	<p class="lead">Testte yedi bölüm bulunmaktadır. Her bölümde talimatlar değişmektedir. Dikkatli olun!</p>
+
+	<div class="text-center proceed" style="margin: 30px auto 10px;">
+		<button pi-message-done type="button" class="btn btn-primary">
+			Başla
+		</button>
+	</div>
+</div> 

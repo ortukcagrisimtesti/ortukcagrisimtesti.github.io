@@ -1,2 +1,2 @@
-# ortukcagrisimtesti.github.io
-Örtük Çağrışım Testi 
+# rukianna.github.io
+IAT Project for Sibel TEKİN
