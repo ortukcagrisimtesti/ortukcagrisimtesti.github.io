@@ -87,7 +87,7 @@ define(['managerAPI',
 	    type: 'redirect', name: 'redirecting', url: 'https://www.google.com/search' 
 	}],
 		
-	uploading: uploading_task({header: 'Bir dakika...', body: 'Lütfen Bekleyiniz'})
+	uploading: uploading_task({header: 'Bir dakika...', body: 'Lütfen Bekleyiniz...'})
     });
     API.addSequence([
         { type: 'isTouch' }, //Use Minno's internal touch detection mechanism. 
