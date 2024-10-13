@@ -1,12 +1,12 @@
 <%
-    var respInst = "you will use the 'E' and 'I' computer keys to";
-    if (global.$isTouch)  respInst = "you will";
+    var respInst = "klavyedeki 'E' ve 'I' harflerini kullanarak";
+    if (global.$isTouch)  respInst = "kullanarak";
 %>
 
 <div class="panel panel-info" style="margin-top:1em">
 		<div class="panel-heading">
 			<h1 class="panel-title" style="font-size:2em">
-				IAT Instructions
+				Yönergeler
 			</h1>
 		</div>
 </div>
@@ -37,16 +37,9 @@
 		</tr>
 		<tr>
 			<th><%=global.whiteLabels%></th>
-			<td>    
-			  <img src="<%=global.baseURL%>wm1_nc.jpg" height=60>
-			  <img src="<%=global.baseURL%>wm2_nc.jpg" height=60>
-			  <img src="<%=global.baseURL%>wm3_nc.jpg" height=60>
-			  <img src="<%=global.baseURL%>wf1_nc.jpg" height=60>
-					  <img src="<%=global.baseURL%>wf2_nc.jpg" height=60>
-			  <img src="<%=global.baseURL%>wf3_nc.jpg" height=60>
+			<td><%=global.erkekWords[0]%>, <%=global.erkekWords[1]%>, <%=global.erkekWords[2]%>, 
+			<%=global.erkekWords[3]%>, <%=global.erkekWords[4]%>, <%=global.erkekWords[5]%></td>
 
-			
-			  </td>
 		</tr>
 	</table>
 
