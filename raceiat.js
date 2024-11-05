@@ -190,7 +190,7 @@ define(['pipAPI','https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/iat10.
 	    stimulusCss : {color:'#336600','font-size':'2.3em'}
 	},
         attribute1 : {
-            name : 'Feminen',
+            name : 'Kadın İsmi',
             title : {
                 media : {word : 'Kadın İsmi'},
                 css : {color:'#0000FF','font-size':'1.8em'},
@@ -208,7 +208,7 @@ define(['pipAPI','https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/iat10.
             stimulusCss : {color:'#0000FF','font-size':'2.3em'}
         },
         attribute2 : {
-            name : 'Maskülen',
+            name : 'Erkek İsmi',
             title : {
                 media : {word : 'Erkek İsmi'},
                 css : {color:'#0000FF','font-size':'1.8em'},
