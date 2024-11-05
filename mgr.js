@@ -38,6 +38,11 @@ define(['managerAPI',
 	negWords: API.shuffle([
 	   'Ayşe' , 'Fatma' , 'Selin' , 'Ceren' , 'Elif' , 'Zeynep'
 	]),
+	kadinWords: API.shuffle([
+	   'Hamarat' , 'Dedikoducu' , 'Şefkatli' , 'Fesat' , 'Evhamlı', 'Hassas' 
+	]),
+	erkekWords: API.shuffle([
+	   'Yiğit' , 'Mantıklı' , 'Sert' , 'Otoriter' , 'Şakacı', 'Sorumsuz'
     });
 
     API.addTasksSet({
