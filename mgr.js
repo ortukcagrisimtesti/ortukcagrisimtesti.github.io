@@ -43,6 +43,7 @@ define(['managerAPI',
 	]),
 	erkekWords: API.shuffle([
 	   'Yiğit' , 'Mantıklı' , 'Sert' , 'Otoriter' , 'Şakacı', 'Sorumsuz'
+	]),
     });
 
     API.addTasksSet({
