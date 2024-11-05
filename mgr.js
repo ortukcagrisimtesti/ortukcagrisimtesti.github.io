@@ -19,11 +19,11 @@ define(['managerAPI',
     let whiteLabels = [];
 
     if (raceSet === 'a') {
-	blackLabels.push('Feminen');
-	whiteLabels.push('Maskülen');
+	blackLabels.push('Kadın İsmi');
+	whiteLabels.push('Erkek İsmi');
     } else {
-	blackLabels.push('Feminen');
-	whiteLabels.push('Maskülen');
+	blackLabels.push('Kadın İsmi');
+	whiteLabels.push('Erkek İsmi');
     }
 
     API.addGlobal({
