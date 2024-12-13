@@ -33,16 +33,16 @@ define(['managerAPI',
 	blackLabels: blackLabels,
 	whiteLabels: whiteLabels,
 	posWords: API.shuffle([
-           'Ahmet' , 'Ali' , 'Mustafa' , 'Hasan' , 'Hüseyin' , 'Yusuf'
+            'Yiğit' , 'Mantıklı' , 'Sert' , 'Otoriter' , 'Şakacı', 'Sorumsuz'
 	]),
 	negWords: API.shuffle([
-	   'Ayşe' , 'Fatma' , 'Selin' , 'Ceren' , 'Elif' , 'Zeynep'
+	    'Hamarat' , 'Dedikoducu' , 'Şefkatli' , 'Fesat' , 'Evhamlı', 'Hassas' 
 	]),
 	kadinWords: API.shuffle([
-	   'Hamarat' , 'Dedikoducu' , 'Şefkatli' , 'Fesat' , 'Evhamlı', 'Hassas' 
+	    'Ayşe' , 'Fatma' , 'Selin' , 'Ceren' , 'Elif' , 'Zeynep'
 	]),
 	erkekWords: API.shuffle([
-	   'Yiğit' , 'Mantıklı' , 'Sert' , 'Otoriter' , 'Şakacı', 'Sorumsuz'
+	    'Ahmet' , 'Ali' , 'Mustafa' , 'Hasan' , 'Hüseyin' , 'Yusuf'
 	]),
     });
 
