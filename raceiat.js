@@ -190,9 +190,9 @@ define(['pipAPI','https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/iat10.
 	    stimulusCss : {color:'#336600','font-size':'2.3em'}
 	},
         attribute1 : {
-            name : 'Kadın İsmi',
+            name : 'Feminen',
             title : {
-                media : {word : 'Kadın İsmi'},
+                media : {word : 'Feminen'},
                 css : {color:'#0000FF','font-size':'1.8em'},
                 height : 4 //Used to position the "Or" in the combined block.
             },
@@ -208,9 +208,9 @@ define(['pipAPI','https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/iat10.
             stimulusCss : {color:'#0000FF','font-size':'2.3em'}
         },
         attribute2 : {
-            name : 'Erkek İsmi',
+            name : 'Maskülen',
             title : {
-                media : {word : 'Erkek İsmi'},
+                media : {word : 'Maskülen'},
                 css : {color:'#0000FF','font-size':'1.8em'},
                 height : 4 //Used to position the "Or" in the combined block.
             },
