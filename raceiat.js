@@ -179,12 +179,12 @@ define(['pipAPI','https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/iat10.
 		height : 4 //Used to position the "Or" in the combined block.
 	    },
 	    stimulusMedia : [ //Stimuli content as PIP's media objects
-		{word: 'Sorumsuz'},
-		{word: 'Sert'},
-		{word: 'Şakacı'},
-		{word: 'Yiğit'},
-		{word: 'Mantıklı'},
-		{word: 'Otoriter'}
+		{word: 'Ahmet'},
+		{word: 'Ali'},
+		{word: 'Mustafa'},
+		{word: 'Hasan'},
+		{word: 'Hüseyin'},
+		{word: 'Yusuf'}
 	    ],
 	    //Stimulus css
 	    stimulusCss : {color:'#336600','font-size':'2.3em'}
