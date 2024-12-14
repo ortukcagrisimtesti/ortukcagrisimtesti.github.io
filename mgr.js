@@ -90,7 +90,7 @@ define(['managerAPI',
 		
 	redirect: 
 	[{ 
-	    type: 'redirect', name: 'redirecting', url: 'ortukcagrisim2.github.io/ortukcagrisimiat2.html' 
+	    type: 'redirect', name: 'redirecting', url: 'https://ortukcagrisim2.github.io/ortukcagrisimiat2.html' 
 	}],
 		
 	uploading: uploading_task({header: 'Bir dakika...', body: 'Lütfen Bekleyiniz...'})
