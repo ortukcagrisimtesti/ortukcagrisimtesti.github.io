@@ -8,23 +8,20 @@ define(['questAPI'], function(Quest){
     API.addPagesSet('basicPage',{
         noSubmit:false, 
         header: 'Demografik Bilgiler',
-        decline: true,
-        declineText: isTouch ? 'Gec' : 'Soruyu Gec', 
         autoFocus:true, 
         progressBar:  'Sayfa <%= pagesMeta.number %> / 2',
-	submitText: isTouch ? 'Gonder' : 'Gonder', 
+        submitText: isTouch ? 'Gonder' : 'Gonder'
     });
 	
     /**
 	* Question prototypes
 	*/
     API.addQuestionsSet('basicQ',{
-        decline: 'true',
         required : true, 		
         errorMsg: {
             required: isTouch 
-                ? 'Please select an answer, or click \'Gec\'' 
-                : 'Please select an answer, or click \'Soruyu Gec\''
+                ? 'Lütfen bir yanıt seçin.'
+                : 'Lütfen bir yanıt seçin.'
         },
         autoSubmit:'true',
         numericValues:'true',
@@ -43,7 +40,7 @@ define(['questAPI'], function(Quest){
         inherit: 'basicQ',
         type: 'text',
         name: 'nickname',
-        stem: 'Lutfen bir rumuz giriniz:'
+        stem: 'Lütfen bir rumuz giriniz:'
     });
 
     // Gender
@@ -52,7 +49,7 @@ define(['questAPI'], function(Quest){
         name: 'gender',
         stem: 'Cinsiyetiniz nedir?',
         answers: [
-            {text: 'Kadin', value: 'Kadin'},
+            {text: 'Kadın', value: 'Kadin'},
             {text: 'Erkek', value: 'Erkek'}
         ]
     });
